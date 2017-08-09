@@ -8,6 +8,7 @@ class ComposerStaticInitb1dc71d0ed788a5a2df2c9d25d290008
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        'bbf73f3db644d3dced353b837903e74c' => __DIR__ . '/..' . '/php-di/php-di/src/DI/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -24,6 +25,18 @@ class ComposerStaticInitb1dc71d0ed788a5a2df2c9d25d290008
         'P' => 
         array (
             'Psr\\Log\\' => 8,
+            'Psr\\Container\\' => 14,
+            'PhpDocReader\\' => 13,
+        ),
+        'I' => 
+        array (
+            'Invoker\\' => 8,
+            'Interop\\Container\\' => 18,
+        ),
+        'D' => 
+        array (
+            'DI\\Bridge\\Silex\\' => 16,
+            'DI\\' => 3,
         ),
     );
 
@@ -59,6 +72,30 @@ class ComposerStaticInitb1dc71d0ed788a5a2df2c9d25d290008
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Psr\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'PhpDocReader\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-di/phpdoc-reader/src/PhpDocReader',
+        ),
+        'Invoker\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-di/invoker/src',
+        ),
+        'Interop\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/container-interop/container-interop/src/Interop/Container',
+        ),
+        'DI\\Bridge\\Silex\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-di/silex-bridge/src',
+        ),
+        'DI\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-di/php-di/src/DI',
         ),
     );
 

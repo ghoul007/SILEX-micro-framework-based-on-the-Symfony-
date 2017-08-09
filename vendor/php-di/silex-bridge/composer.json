@@ -1,0 +1,28 @@
+{
+    "name": "php-di/silex-bridge",
+    "description": "PHP-DI integration in Silex",
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "DI\\Bridge\\Silex\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DI\\Bridge\\Silex\\Test\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "php-di/php-di": "~5.0",
+        "php-di/invoker": "~1.3",
+        "silex/silex" : "~1.3",
+        "pimple/pimple" : "~1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5",
+        "twig/twig": "~1.8",
+        "swiftmailer/swiftmailer": "^5.4"
+    }
+}
