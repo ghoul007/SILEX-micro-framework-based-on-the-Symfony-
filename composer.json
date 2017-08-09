@@ -1,0 +1,14 @@
+{
+    "name": "symfony/silex",
+    "authors": [
+        {
+            "name": "Ahmed",
+            "email": "ghoul.ahmed5@gmail.com"
+        }
+    ],
+   
+    "require": {
+        "silex/silex": "1.3.*"
+    }
+ 
+}
