@@ -28,6 +28,10 @@ class ComposerStaticInitb1dc71d0ed788a5a2df2c9d25d290008
             'Psr\\Container\\' => 14,
             'PhpDocReader\\' => 13,
         ),
+        'M' => 
+        array (
+            'Monolog\\' => 8,
+        ),
         'I' => 
         array (
             'Invoker\\' => 8,
@@ -80,6 +84,10 @@ class ComposerStaticInitb1dc71d0ed788a5a2df2c9d25d290008
         'PhpDocReader\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-di/phpdoc-reader/src/PhpDocReader',
+        ),
+        'Monolog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
         'Invoker\\' => 
         array (
